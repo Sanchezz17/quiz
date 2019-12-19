@@ -12,7 +12,7 @@ const app = express();
 app.use(express.static('static'));
 
 app.get("/", (_, res) => {
-    res.sendFile(path.join(rootDir, "static/index.html"));
+    res.sendFile(path.join(rootDir, "static/index.hbs"));
 });
 
 app.listen(port, () => console.log(`App listening on port ${port}`));
