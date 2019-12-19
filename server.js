@@ -19,30 +19,36 @@ const questions = [
     {
         name: "Какой тигр самый крупный?",
         imageURL: "https://images.wallpaperscraft.com/image/tiger_aggression_teeth_predator_big_cat_106887_1600x1200.jpg",
-        options: ["Амурский", "Малазийский", "Индийский", "Суматранский"],
+        options: [
+            {option: "Амурский"},  {option:"Малазийский"}, {option:"Индийский"}, {option:"Суматранский"}
+        ],
         answer: ["Индийский"]
     },
     {
         name: "Где живет коала?",
         imageURL: "https://versiya.info/uploads/posts/2019-02/1550993623_s1200.jpg",
         options: [
-            "В горной пещере",
-            "В бамбуковом лесу",
-            "В тропических лесах Новой Зеландии",
-            "На эвкалиптовом дереве"
+            {option: "В горной пещере"},
+            {option: "В бамбуковом лесу"},
+            {option: "В тропических лесах Новой Зеландии"},
+            {option: "На эвкалиптовом дереве"}
         ],
         answer: ["На эвкалиптовом дереве"]
     },
     {
         name: "Какого цвета хвост у зебры?",
         imageURL: "http://fullhdwallpapers.ru/image/animals/2852/tri-zebry.jpg",
-        options: ["Белый", "Черный", "Серый", "Коричневый"],
+        options: [
+            {option: "Белый"}, {option: "Черный"}, {option: "Серый"}, {option: "Коричневый"}
+        ],
         answer: ["Черный"]
     },
     {
         name: "Какое животное самое быстрое?",
         imageURL: "https://s1.1zoom.ru/big3/25/Cheetahs_Cubs_Two_Grass_527375_2048x1152.jpg",
-        options: ["Лев", "Зебра", "Сапсан", "Гепард"],
+        options: [
+            {option: "Лев"}, {option: "Зебра"}, {option: "Сапсан"}, {option: "Гепард"}
+        ],
         answer: ["Гепард"]
     },
 ];
