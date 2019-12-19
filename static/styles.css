@@ -4,7 +4,9 @@
     background-color: #f8f9fa;
     display: flex;
     align-items: center;
+    justify-content: space-between;
     padding-left: 9px;
+    padding-right: 9px;
 }
 
 .content
@@ -12,7 +14,7 @@
     margin: 16px 72px;
 }
 
-.question_form
+.questions
 {
     display: flex;
     flex-direction: row;
@@ -35,4 +37,10 @@ img
 .question
 {
     margin: 12px 19px;
+}
+
+.submit-wrapper
+{
+    display: flex;
+    justify-content: center;
 }
